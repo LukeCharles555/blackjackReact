@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Hand from './game/Hand';
+
+const dealerHand = new Hand();
+const playerHand = new Hand();
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
