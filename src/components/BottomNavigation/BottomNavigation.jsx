@@ -10,7 +10,7 @@ import {
 import SettingsIcon from '@material-ui/icons/Settings';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
 import HomeIcon from '@material-ui/icons/Home';
-import { useNavigationStyles } from './BottomNavigation.styles';
+import { useNavigationStyles } from '../BottomNavigation.styles';
 
 export default function BottomNavigation() {
   const classes = useNavigationStyles();
