@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hand from './game/Hand'
+import BottomNavigation from './components/BottomNavigation';
 
 function App() {
   return (
     <div className="App">
-      <Hand />
+      <BottomNavigation />
     </div>
   );
 }
