@@ -7,10 +7,9 @@ import {
   IconButton,
   Avatar,
 } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
-import AddIcon from '@material-ui/icons/Add';
-import SearchIcon from '@material-ui/icons/Search';
-import MoreIcon from '@material-ui/icons/MoreVert';
+import SettingsIcon from '@material-ui/icons/Settings';
+import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
+import HomeIcon from '@material-ui/icons/Home';
 import { useNavigationStyles } from './BottomNavigation.styles';
 
 export default function BottomNavigation() {
@@ -26,17 +25,17 @@ export default function BottomNavigation() {
             color="inherit"
             aria-label="open drawer"
           >
-            <MenuIcon />
+            <HomeIcon />
           </IconButton>
           <Fab aria-label="add" className={classes.fabButton}>
-            <AddIcon />
+            <Avatar className={classes.avatar} />
           </Fab>
           <div className={classes.grow} />
           <IconButton color="inherit">
-            <SearchIcon />
+            <SportsEsportsIcon />
           </IconButton>
           <IconButton edge="end" color="inherit">
-            <MoreIcon />
+            <SettingsIcon />
           </IconButton>
         </Toolbar>
       </AppBar>

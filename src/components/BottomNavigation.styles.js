@@ -18,4 +18,7 @@ export const useNavigationStyles = makeStyles((theme) => ({
     margin: '0 auto',
     backgroundColor: 'yellow',
   },
+  avatar: {
+    backgroundColor: 'yellow',
+  },
 }));
