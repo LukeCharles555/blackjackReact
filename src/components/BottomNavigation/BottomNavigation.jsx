@@ -10,7 +10,7 @@ import {
 import SettingsIcon from '@material-ui/icons/Settings';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
 import HomeIcon from '@material-ui/icons/Home';
-import { useNavigationStyles } from '../BottomNavigation.styles';
+import { useNavigationStyles } from './BottomNavigation.styles';
 
 export default function BottomNavigation() {
   const classes = useNavigationStyles();
@@ -24,6 +24,7 @@ export default function BottomNavigation() {
             edge="start"
             color="inherit"
             aria-label="open drawer"
+            href="/home"
           >
             <HomeIcon />
           </IconButton>
@@ -31,10 +32,10 @@ export default function BottomNavigation() {
             <Avatar className={classes.avatar} />
           </Fab>
           <div className={classes.grow} />
-          <IconButton color="inherit">
+          <IconButton color="inherit" href="/game">
             <SportsEsportsIcon />
           </IconButton>
-          <IconButton edge="end" color="inherit">
+          <IconButton edge="end" color="inherit" href="/settings">
             <SettingsIcon />
           </IconButton>
         </Toolbar>
