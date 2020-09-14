@@ -13,7 +13,7 @@ export default function Routing() {
     <div>
       <Router>
         <Switch>
-          <Route exact path="/home" component={HomePage} />
+          <Route exact path="/" component={HomePage} />
           <Route path="/game" component={GamePage} />
           <Route path="/settings" component={SettingsPage} />
         </Switch>
