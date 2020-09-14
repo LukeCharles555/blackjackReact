@@ -23,8 +23,9 @@ export default function BottomNavigation() {
           <IconButton
             edge="start"
             color="inherit"
+            id="home-button"
             aria-label="open drawer"
-            href="/home"
+            href="/"
           >
             <HomeIcon />
           </IconButton>
@@ -32,10 +33,15 @@ export default function BottomNavigation() {
             <Avatar className={classes.avatar} />
           </Fab>
           <div className={classes.grow} />
-          <IconButton color="inherit" href="/game">
+          <IconButton id="game-button" color="inherit" href="/game">
             <SportsEsportsIcon />
           </IconButton>
-          <IconButton edge="end" color="inherit" href="/settings">
+          <IconButton
+            id="settings-button"
+            edge="end"
+            color="inherit"
+            href="/settings"
+          >
             <SettingsIcon />
           </IconButton>
         </Toolbar>
