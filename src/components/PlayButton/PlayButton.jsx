@@ -5,7 +5,6 @@ import {
   Card,
   CardContent,
 } from '@material-ui/core';
-import isEmpty from 'lodash';
 import { usePlayButtonStyles } from './PlayButton.styles';
 
 export default function PlayButton() {
